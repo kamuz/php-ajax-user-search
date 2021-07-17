@@ -25,7 +25,7 @@
                     }
                 }
                 // Open the XMLHttpRequest object and send the AJAX request to PHP file where str variable holds the content of the input field
-                xhr.open("GET", "suggest.php?q=" + str, true);
+                xhr.open("GET", "result.php?q=" + str, true);
                 xhr.send();
             }
         }
