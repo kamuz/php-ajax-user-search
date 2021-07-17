@@ -12,7 +12,7 @@
             if(str.length == 0) {
                 // Clear and exit
                 document.getElementById('output').innerHTML = '';
-                // return;
+                return;
             }
             // If field is not empty - run AJAX Request
             else {
